@@ -57,7 +57,9 @@ public class MTimer {
 		long totalT=cmpt();
 		if(totalT<1000) {
 			totalT=1;
-		}
+		}else{
+   totalT=(int)totalT/1000;
+  }
 		return totalT;
 	}
 	/**
